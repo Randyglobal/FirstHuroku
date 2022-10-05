@@ -1,0 +1,163 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* custom properties */
+header {
+  width: 100%;
+  height: 65px;
+  display: flex;
+}
+header .logoNav {
+  width: 30%;
+  height: 65px;
+  background: pink;
+}
+header .logoNav img {
+  width: 100px;
+  height: 40px;
+  margin: 10px auto;
+}
+header .buttonDiv {
+  width: 30%;
+  height: 65px;
+  background: yellow;
+  margin-left: 600px;
+}
+
+.googleWorks {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+}
+.googleWorks .googleInfo {
+  width: 40%;
+  height: 85vh;
+  color: #202124;
+}
+.googleWorks .googleInfo h1 {
+  font-size: 62px;
+  margin-top: 145px;
+  padding-left: 70px;
+  font-weight: 600;
+}
+.googleWorks .googleInfo p {
+  padding-left: 70px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.googleWorks .googleProfile {
+  width: 60%;
+  height: 85vh;
+}
+.googleWorks .googleProfile #myVideo {
+  height: 85vh;
+  filter: 2px;
+}
+
+.mainBar {
+  width: 100%;
+  height: 48vh;
+  margin-top: 3px;
+  display: flex;
+}
+.mainBar h2, .mainBar .colorDiv, .mainBar .colorDi, .mainBar .colorD, .mainBar p {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.mainBar p {
+  line-height: 25px;
+}
+.mainBar h2 {
+  font-size: 25px;
+  color: #202124;
+  font-weight: 400;
+  margin-top: 70px;
+}
+.mainBar .helpYou {
+  width: 33.34%;
+  height: 48vh;
+  border: 1px solid #E0E0E0;
+  background: rgba(208, 208, 208, 0.201);
+  color: #202124;
+}
+.mainBar .helpYou .colorDiv {
+  width: 35px;
+  height: 5px;
+  background: #027cff;
+}
+.mainBar .buildYou {
+  width: 33.34%;
+  height: 48vh;
+  border: 1px solid #E0E0E0;
+  background: rgba(208, 208, 208, 0.201);
+  color: #202124;
+}
+.mainBar .buildYou .colorDi {
+  width: 35px;
+  height: 5px;
+  background: yellow;
+}
+.mainBar .protectYou {
+  width: 33.34%;
+  height: 48vh;
+  border: 1px solid #E0E0E0;
+  background: rgba(208, 208, 208, 0.201);
+  color: #202124;
+}
+.mainBar .protectYou .colorD {
+  width: 35px;
+  height: 5px;
+  background: green;
+}
+.mainBar .protectYou .arrowDown {
+  width: 60px;
+  height: 60px;
+  background: #027cff;
+  border-radius: 40px;
+  margin-top: -255px;
+  margin-left: 360px;
+  box-shadow: 3px 0px solid rgba(0, 0, 255, 0.216);
+}
+.mainBar .protectYou i {
+  color: white;
+  margin-top: 18px;
+  margin-left: 16px;
+  font-size: 27px;
+}
+
+.readyTo {
+  width: 100%;
+  height: 83vh;
+  position: relative;
+}
+.readyTo .profileGoogle {
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  top: 90px;
+  left: 480px;
+}
+.readyTo .profileGoogle img {
+  margin-left: 100px;
+}
+.readyTo .profileGoogle h1 {
+  font-size: 58px;
+  font-weight: 600;
+  margin-top: -20px;
+  color: #202124;
+  font-weight: 500;
+}
+.readyTo p {
+  width: 54%;
+  padding-top: 370px;
+  margin-left: 310px;
+  text-align: center;
+  color: #202124;
+  font-size: 16px;
+  line-height: 26px;
+}/*# sourceMappingURL=account.css.map */

@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  box-sizing: inherit;
+}
+
+/* custom properties */
+.container {
+  width: 84%;
+  margin: 0 10%;
+  margin-top: 30px;
+}
+.container .content {
+  width: 56%;
+  height: 93vh;
+  margin-left: 20%;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+}
+.container .content .creation {
+  display: flex;
+}
+.container .content .creation .left {
+  width: 60%;
+  height: 705px;
+}
+.container .content .creation .left form .google {
+  width: 90%;
+  height: 120px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.container .content .creation .left form .google img {
+  width: 100px;
+  height: 40px;
+  padding-left: 5px;
+  margin: auto;
+  padding-top: 20px;
+}
+.container .content .creation .left form .google p {
+  font-size: 24px;
+  padding-left: 20px;
+}
+.container .content .creation .left form .inputs {
+  background-color: #1811e7;
+}
+.container .content .creation .left form .inputs .number {
+  width: 60%;
+  height: 30px;
+  margin-left: 22%;
+  margin-top: 35px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  outline: none;
+}
+.container .content .creation .left form .inputs p {
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.container .content .creation .left form .inputs1 input {
+  width: 78%;
+  height: 30px;
+  margin-left: 22px;
+  margin-top: 35px;
+  font-size: 14.5px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  outline: none;
+}
+.container .content .creation .left form .inputs1 p {
+  font-size: 13.5px;
+  margin-left: 22px;
+  padding-top: 5px;
+}
+.container .content .creation .left form .inputs2 {
+  padding-left: 23px;
+  display: flex;
+  margin-top: 35px;
+}
+.container .content .creation .left form .inputs2 .day, .container .content .creation .left form .inputs2 .month, .container .content .creation .left form .inputs2 .year {
+  width: 24%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  outline: none;
+}
+.container .content .creation .left form .inputs2 .month, .container .content .creation .left form .inputs2 .year {
+  margin-left: 15px;
+}
+.container .content .creation .left form p {
+  font-size: 13.5px;
+  margin-left: 22px;
+  padding-top: 5px;
+}
+.container .content .creation .left form .inputs3 .gender {
+  width: 78%;
+  height: 30px;
+  margin-left: 22px;
+  margin-top: 35px;
+  font-size: 14.5px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  outline: none;
+}
+.container .content .creation .left form .information {
+  margin-top: 35px;
+  margin-left: 22px;
+}
+.container .content .creation .left form .information a {
+  color: #1811e7;
+  text-decoration: none;
+  font-size: 14.5px;
+}
+.container .content .creation .left form .information button {
+  background-color: #1b14d1;
+  width: 80px;
+  height: 25px;
+  border: 0;
+  border-radius: 3px;
+  color: antiquewhite;
+  margin-left: 270px;
+  margin-top: 35px;
+  font-size: 14.5px;
+}
+.container .content .creation .left form .information .back {
+  margin-top: -20px;
+}
+.container .content .creation .right {
+  width: 40%;
+  height: 705px;
+  padding-top: 100px;
+}
+.container .content .creation .right p {
+  text-align: center;
+}
+.container .language {
+  margin-top: -80px;
+  width: 100%;
+}
+.container .language ul {
+  width: 94%;
+  color: rgba(56, 54, 54, 0.825);
+  display: flex;
+}
+.container .language ul #lang1 {
+  margin-right: 250px;
+}
+.container .language ul a {
+  text-decoration: none;
+}
+.container .language ul #help1, .container .language ul #help2 {
+  margin-right: 50px;
+}/*# sourceMappingURL=creation.css.map */
