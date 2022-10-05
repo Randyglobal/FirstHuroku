@@ -78,7 +78,7 @@
 
         .form-text.active .form-label,
         .form-text:focus + .form-label,
-        .form-text:not(:placeholder-shown) + .form-label,
+        // .form-text:not(:placeholder-shown) + .form-label,
         .form-text.active + .label {
             color: $form-label_background-color;
             top: -70px;
