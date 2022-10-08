@@ -571,16 +571,16 @@
   }
 }
 @media (max-width: 576px) {
-  /* form */
   .Wrapper {
-    width: 500px;
+    position: relative;
+    width: 99%;
     height: 500px;
     margin: auto;
     margin-top: 10px;
+    margin-left: 0px;
     border-radius: 7px;
     text-align: center;
     display: flex;
-    border: 1px solid #E0E0E0;
     border: 1px solid white;
     /* first input */
     /* End of Input */
@@ -589,17 +589,17 @@
   }
   .Wrapper .google {
     width: 300px;
-    height: 150px;
+    height: 180px;
     padding-left: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 90px;
-    /* img */
   }
   .Wrapper .google img {
     width: 95px;
-    height: 38px;
+    height: 40px;
+    padding-left: 10px;
     margin: auto;
-    padding-top: -20px;
+    padding-top: 20px;
   }
   .Wrapper .google p {
     font-size: 24px;
@@ -608,12 +608,13 @@
     font-size: 16px;
   }
   .Wrapper #text1 {
-    margin-top: 10px;
+    margin-top: -40px;
   }
   .Wrapper .form-text {
-    width: 470px;
+    width: 96%;
     padding: 20px;
-    margin-left: -40px;
+    margin-top: 7px;
+    margin-left: 30px;
     outline: none;
     place-content: center;
     border-radius: 4px;
@@ -635,7 +636,7 @@
     white-space: nowrap;
     padding: 0 8px;
     top: -35px;
-    left: -200px;
+    left: -120px;
     transition: 0.15s;
   }
   .Wrapper .form-text.active .form-label,
@@ -643,15 +644,16 @@
 .Wrapper .form-text.active + .label {
     color: #1E88E5;
     top: -70px;
-    left: -210px;
+    left: -110px;
     background: #fff;
     font-size: 13px;
   }
   .Wrapper .selector {
+    position: absolute;
     width: 80px;
     height: 30px;
-    margin-top: 40px;
-    margin-left: 410px;
+    margin-top: 10px;
+    margin-left: 380px;
     background-color: #1E88E5;
     text-align: center;
     padding-top: 10px;
@@ -665,11 +667,13 @@
     background-color: #1E88E5;
   }
   .Wrapper .Bar {
-    width: 100%;
+    position: absolute;
+    width: 80%;
     height: 30px;
     display: flex;
     justify-content: space-between;
-    margin-top: 130px;
+    margin-top: 270px;
+    margin-left: 40px;
   }
   .Wrapper .Bar ul,
 .Wrapper .Bar li,
@@ -677,6 +681,7 @@
     list-style: none;
     text-decoration: none;
     display: inline;
+    padding-left: 13px;
     font-size: 12px;
     padding-top: 15px;
     color: rgba(31, 31, 31, 0.84);

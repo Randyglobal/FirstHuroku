@@ -1144,27 +1144,26 @@
 }
 @media (max-width: 576px) {
   .container {
-    width: 400px;
-    height: 605px;
+    width: 97%;
+    height: 650px;
     margin: auto;
     margin-top: 30px;
     border-radius: 6px;
     display: flex;
-    background: blue;
     position: relative;
-    border: 1px solid #E0E0E0;
+    border: 1px solid white;
   }
   .container .left {
-    width: 100%;
-    height: 600px;
+    width: 92%;
+    height: 650px;
     position: absolute;
-    left: 0;
+    left: 5px;
   }
   .container .left .google {
     width: 90%;
     height: 120px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .container .left .google img {
     width: 100px;
@@ -1180,7 +1179,7 @@
   .container .left .inputs,
 .container .left .input {
     width: 100%;
-    height: 110px;
+    height: 90px;
   }
   .container .left .name,
 .container .left .Last {
@@ -1188,19 +1187,30 @@
   }
   .container .left .name,
 .container .left .domain {
-    width: 160px;
+    width: 380px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 4px;
     outline: none;
     border: 1px solid #E0E0E0;
   }
+  .container .left #move, .container .left #moves {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+  .container .left #second {
+    margin-top: 15px;
+  }
   .container .left .domain {
     margin-left: -80px;
   }
-  .container .left .Last {
+  .container .left .userDiv {
+    position: absolute;
+    top: 270px;
+  }
+  .container .left .userDiv .Last {
     padding: 10px;
-    width: 347px;
+    width: 380px;
     border-radius: 4px;
     outline: none;
     border: 1px solid #E0E0E0;
@@ -1214,7 +1224,8 @@
     overflow: hidden;
     white-space: nowrap;
     padding: 0 8px;
-    left: -170px;
+    top: -30px;
+    left: 40px;
     transition: 0.15s;
   }
   .container .left .formLabew {
@@ -1227,20 +1238,21 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: 0 8px;
-    left: -355px;
+    top: -25px;
+    left: 40px;
     transition: 0.15s;
   }
   .container .left .userLog {
     position: absolute;
-    margin-top: -170px;
-    margin-left: 300px;
+    margin-top: -223px;
+    margin-left: 340px;
     font-size: 14px;
   }
   .container .left .name.active .formLabel,
 .container .left .name:focus + .formLabel,
 .container .left .name.active + .label {
     color: #1E88E5;
-    top: -20px;
+    top: -45px;
     background: #fff;
     font-size: 13px;
   }
@@ -1248,7 +1260,7 @@
 .container .left .domain:focus + .formLabel,
 .container .left .domain.active + .label {
     color: #1E88E5;
-    top: -20px;
+    top: -45px;
     background: #fff;
     font-size: 13px;
   }
@@ -1256,18 +1268,23 @@
 .container .left .Last:focus + .formLabew,
 .container .left .Last.active + .label {
     color: #1E88E5;
-    top: -20px;
+    top: -45px;
     background: #fff;
     font-size: 13px;
   }
   .container .left .line {
     color: rgba(31, 31, 31, 0.761);
     font-size: 13px;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .container .left #lines {
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: -10px;
   }
   .container .left .dropbtn {
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 10px;
     border: white;
     border-radius: 1px;
@@ -1286,10 +1303,11 @@
   .container .left .check {
     width: 8%;
     height: 30px;
-    margin-left: 30px;
     text-align: center;
     padding-top: 10px;
     border-radius: 30px;
+    margin-top: -20px;
+    margin-left: 20px;
   }
   .container .left .check:hover {
     background: rgba(182, 206, 215, 0.378);
@@ -1301,20 +1319,21 @@
     border: 1px solid black;
   }
   .container .left .show {
-    margin: -22px 0 0 40px;
+    margin: -20px 0 0 40px;
     width: 300px;
     text-align: left;
     font-size: 13px;
     color: rgba(31, 31, 31, 0.761);
   }
   .container .left .selector {
-    width: 80px;
-    height: 30px;
+    width: 300px;
+    height: 25px;
     background-color: #3991df;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     border-radius: 4px;
-    margin-left: 80px;
+    margin-left: 250px;
+    margin-top: 60px;
   }
   .container .left .selector a {
     text-decoration: none;
@@ -1327,8 +1346,9 @@
     font-size: 13px;
     border: none;
     padding: 10px;
-    margin-top: 10px;
-    margin-left: 30px;
+    width: 390px;
+    margin-top: 60px;
+    margin-left: 10px;
   }
   .container .left a {
     text-decoration: none;
@@ -1385,14 +1405,14 @@
   }
   .container .language {
     display: flex;
-    width: 400px;
-    margin-top: 620px;
-    margin-left: 20px;
+    width: 90%;
+    margin-top: 650px;
     font-size: 13px;
     color: rgba(31, 31, 31, 0.761);
-    background: red;
   }
-  .container .language ul, .container .language li, .container .language a {
+  .container .language ul,
+.container .language li,
+.container .language a {
     list-style-type: none;
     text-decoration: none;
     margin-left: 10px;
@@ -1400,11 +1420,34 @@
     color: rgba(31, 31, 31, 0.761);
   }
   .container .language #help1 {
+    margin-left: 70px;
+  }
+  .container .language #lang {
     margin-left: 0px;
   }
   .container .language select {
     outline: none;
     border: none;
     margin-left: -5px;
+  }
+  .container .language .select {
+    width: 40%;
+    height: 20px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .container .language .select .select:hover {
+    background: rgba(31, 31, 31, 0.761);
+  }
+  .container .language .select p {
+    margin-top: 13px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: rgba(31, 31, 31, 0.761);
+  }
+  .container .language .select:hover {
+    background: rgba(128, 128, 128, 0.089);
   }
 }/*# sourceMappingURL=create.css.map */

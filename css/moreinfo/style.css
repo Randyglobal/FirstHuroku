@@ -800,9 +800,10 @@
 }
 @media (max-width: 576px) {
   .bannerContainer {
-    width: 520px;
-    height: 605px;
-    margin: auto;
+    width: 100%;
+    height: 570px;
+    margin-left: -5px;
+    margin-top: 10px;
     border-radius: 6px;
     display: flex;
     position: relative;
@@ -812,13 +813,13 @@
     width: 90%;
     height: 600px;
     position: absolute;
-    left: 0;
+    left: 10px;
     margin-left: 0px;
   }
   .bannerContainer .left .google {
     width: 90%;
     height: 120px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
   }
   .bannerContainer .left .google img {
@@ -872,7 +873,8 @@
   .bannerContainer .left .infoDiv .textInfo p {
     font-size: 14px;
     color: #646464;
-    margin-top: 20px;
+    margin-top: 23px;
+    margin-left: -20px;
   }
   .bannerContainer .left .buttonDiv {
     width: 30%;
@@ -955,9 +957,9 @@
   }
   .bannerContainer .language {
     display: flex;
-    width: 490px;
+    width: 90%;
     margin-top: 580px;
-    margin-left: 30px;
+    margin-left: 20px;
     font-size: 13px;
     color: #646464;
   }
@@ -969,11 +971,11 @@
     color: #646464;
   }
   .bannerContainer .language #help1 {
-    margin-left: 120px;
+    margin-left: 30px;
   }
   .bannerContainer .language .select {
     background: white;
-    width: 30%;
+    width: 50%;
     height: 45px;
     display: flex;
     border-radius: 5px;

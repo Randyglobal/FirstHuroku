@@ -1,19 +1,13 @@
 @media (max-width: 576px) {
     .wrapperContainer {
-        width: 90%;
-        height: 500px;
-        margin-top: 20px;
-        border-radius: 6px;
-        display: flex;
-        background: white;
-        position: relative;
-        border: 1px solid white;
+        @include containerStyle (450px, 500px, red);
+        border: $container_border;
     
         .left {
-            width: 105%;
+            width: 100%;
             height: 500px;
             position: absolute;
-            left: -25px;
+            left: 0;
             // margin-left: -5px;
     
             .google {
@@ -37,12 +31,11 @@
             }
     
             .inputs {
-                width: 99%;
+                width: 85%;
                 font-size: 14px;
                 margin-left: 30px;
                 line-height: 20px;
                 color: $text_color;
-                word-wrap: 10px;
             }
     
             .input {
@@ -53,6 +46,7 @@
                     margin-top: 20px;
                     margin-left: 25px;
                     outline: none;
+                    place-content: center;
                     border-radius: 4px;
                     // transition: .15s;
                     background: $container_background;
@@ -95,7 +89,7 @@
                 text-align: center;
                 padding-top: 10px;
                 border-radius: 4px;
-                margin-left: 350px;
+                margin-left: 260px;
                 margin-top: -5px;
     
             }
@@ -143,7 +137,7 @@
     
         .right {
             width: 30%;
-            height: 500px;
+            height: 600px;
             text-align: center;
             position: absolute;
             // background: red;
@@ -180,7 +174,7 @@
                 
             }
             #help1{
-                margin-left:100px;
+                margin-left:90px;
                 
             }
             .select {
@@ -190,7 +184,6 @@
                 border-radius: 5px;
                 border: 1px solid white;
                 cursor: pointer;
-                margin-left: -20px;
         
                 .select:hover {
                     background: $text_color;
@@ -204,4 +197,5 @@
         }
         }
         
+
     }

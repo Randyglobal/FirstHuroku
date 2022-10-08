@@ -1,8 +1,9 @@
 @media (max-width: 576px) {
     .container {
-        width: 500px;
+        width: 100%;
         height: 500px;
-        margin: auto;
+        margin-left: 0px;
+        margin-top: 0;
         border-radius: 6px;
         text-align: center;
         display: flex;
@@ -41,14 +42,14 @@
 
         /* main */
         .register {
-            width: 350px;
+            width: 80%;
             padding: 15px;
-            margin-top: -35px;
-            margin-left: 25px;
+            margin-top: -25px;
+            margin-left: 40px;
             // position: relative;
 
             .form-text {
-                width: 430px;
+                width: 100%;
                 padding: 20px;
                 // margin-top: 0px;
                 margin-left: -20px;
@@ -76,7 +77,7 @@
                 white-space: nowrap;
                 padding: 0 8px;
                 top: -35px;
-                left: -120px;
+                left: -150px;
                 transition: .15s;
             }
 
@@ -85,7 +86,7 @@
             .form-text.active+.label {
                 color: $form-label_background-color;
                 top: -70px;
-                left: -120px;
+                left: -160px;
                 background: #fff;
                 font-size: 13px;
             }
@@ -100,10 +101,10 @@
 
         .form h6 {
             margin-left: -320px;
-            margin-top: -10px;
+            margin-top: -20px;
             text-decoration: none;
-            font-size: 15px;
-            font-weight: 600;
+            font-size: 10px;
+            font-weight: 500;
         }
 
         .form,
@@ -116,7 +117,7 @@
                 height: 30px;
                 font-size: 15px;
                 text-align: justify;
-                margin-left: -20px;
+                margin-left: -30px;
 
             }
 
@@ -133,7 +134,6 @@
 
         .form button {
             margin-top: 40px;
-            margin-left: -400px;
             padding: 10px;
             border: white;
             border-radius: 1px;
@@ -150,7 +150,7 @@
             width: 85%;
             height: 50px;
             margin-top: 50px;
-            margin-left: 40px;
+            margin-left: 65px;
 
             span p {
                 text-align: justify;
@@ -167,57 +167,53 @@
             padding-left: 10px;
         }
 
-        .dropup {
+        .dropdown {
             position: relative;
             display: inline-block;
-            background: red;
-            margin-left: 60px;
+            margin-left: -90px;
+            margin-top: -10px;
 
         }
 
-        .dropup-content {
+        .dropdown-content {
             display: none;
             position: absolute;
             background-color: white;
             min-width: 170px;
             z-index: 1;
-            margin-left: -210px;
-            // margin-top: -90px;
+            margin-left: -190px;
+            margin-top: 5px;
             padding: auto auto 20px 20px;
             text-align: justify;
             font-size: 14px;
             height: 140px;
             border-radius: 5px;
-            box-shadow: 1px 1px 1px 1px lightcyan;
+            box-shadow: 1px 1px 1px 1px rgb(245, 248, 248);
 
         }
-        #button{
-           position: absolute;
-           left: 10px;
-        }
 
-        .dropup-content a {
+        .dropdown-content a {
             color: black;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
 
-        .dropup-content a:hover {
+        .dropdown-content a:hover {
             background-color: #ccc
         }
 
-        .dropup:hover .dropup-content {
+        .dropdown:hover .dropdown-content {
             display: block;
         }
 
-        .dropup:hover .dropbtn {
+        .dropdown:hover .dropbtn {
             background-color: #a3cae4;
             cursor: pointer;
         }
 
         .selector {
-            @include selectElement (-40px, 390px);
+            @include selectElement (-40px, 380px);
             background-color: $form-label_background-color;
         }
 
@@ -231,5 +227,67 @@
             background-color: #1E88E5;
         }
 
+    }
+    #language{
+        width: 94%;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .languageBar {
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        // position: relative;
+
+        ul,
+        li,
+        a {
+            list-style: none;
+            text-decoration: none;
+            display: inline;
+            padding-left: 13px;
+            font-size: 12px;
+            padding-top: 10px;
+            color: $text_color;
+        }
+        #help{
+            margin-left: -190px;
+        }
+
+
+
+        select {
+            border: 1px solid $container_background;
+            outline: none;
+            margin-left: 35px;
+            width: 13px;
+            background: $container_background;
+            cursor: pointer;
+        }
+
+        .select {
+            background: white;
+            width: 40%;
+            height: 45px;
+            display: flex;
+            border-radius: 5px;
+            border: 1px solid white;
+            cursor: pointer;
+
+            .select:hover {
+                background: $text_color;
+            }
+
+            p {
+                margin-top: 13px;
+                padding-left: 5px;
+                font-size: 13px;
+                color: $text_color;
+            }
+        }
+
+        .select:hover {
+            background: rgba(128, 128, 128, 0.089);
+        }
     }
 }

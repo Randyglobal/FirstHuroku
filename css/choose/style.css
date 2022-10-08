@@ -838,26 +838,25 @@
 }
 @media (max-width: 576px) {
   .bannerContainer {
-    width: 550px;
-    height: 605px;
-    margin: auto;
+    width: 95%;
+    height: 580px;
+    margin-left: 15px;
+    margin-top: -10px;
     border-radius: 6px;
     display: flex;
     position: relative;
     border: 1px solid white;
-    border: 1px solid #bfbfbf;
   }
   .bannerContainer .left {
     width: 100%;
     height: 600px;
     position: absolute;
-    left: 20px;
-    background: red;
+    left: -5px;
   }
   .bannerContainer .left .google {
     width: 90%;
     height: 120px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 10px;
   }
   .bannerContainer .left .google img {
@@ -872,7 +871,7 @@
     padding-left: 20px;
   }
   .bannerContainer .left .firstDiv {
-    width: 380px;
+    width: 420px;
     height: 60px;
     margin-top: 20px;
     margin-left: 30px;
@@ -886,13 +885,14 @@
   }
   .bannerContainer .left .firstDiv p {
     margin-left: 20px;
+    width: 100%;
   }
   .bannerContainer .left .firstDiv input {
     width: 20px;
     height: 20px;
   }
   .bannerContainer .left .firsDiv {
-    width: 380px;
+    width: 420px;
     height: 40px;
     margin-top: 20px;
     margin-left: 30px;
@@ -912,7 +912,7 @@
     margin-left: 20px;
   }
   .bannerContainer .left .SecondDiv {
-    width: 380px;
+    width: 420px;
     height: 60px;
     margin-top: 20px;
     margin-left: 30px;
@@ -928,7 +928,7 @@
     font-size: 14px;
     border: none;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: -20px;
     margin-left: 30px;
     font-weight: 600;
   }
@@ -942,8 +942,8 @@
     text-align: center;
     padding-top: 5px;
     border-radius: 4px;
-    margin-left: 230px;
-    margin-top: -5px;
+    margin-left: 270px;
+    margin-top: -30px;
   }
   .bannerContainer .left .selector a {
     text-decoration: none;
@@ -957,8 +957,8 @@
     height: 40px;
     border: none;
     outline: none;
-    margin-left: 40px;
-    margin-top: -10px;
+    margin-left: 30px;
+    margin-top: -30px;
     font-size: 14px;
     color: #0077ff;
     background: white;
@@ -1000,8 +1000,9 @@
   }
   .bannerContainer .language {
     display: flex;
-    width: 490px;
-    margin-top: 620px;
+    width: 90%;
+    margin-top: 600px;
+    margin-left: 30px;
     font-size: 13px;
     color: #242424;
   }
@@ -1013,11 +1014,11 @@
     color: #242424;
   }
   .bannerContainer .language #help1 {
-    margin-left: 160px;
+    margin-left: 30px;
   }
   .bannerContainer .language .select {
     background: white;
-    width: 30%;
+    width: 50%;
     height: 45px;
     display: flex;
     border-radius: 5px;
